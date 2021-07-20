@@ -1,4 +1,5 @@
--- Nhat Anh Script
+-- Made By Orb#5041
+-- Version: 3.2
 
 -- Instances:
 
@@ -26,29 +27,16 @@ label.Parent = Main
 label.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
 label.Size = UDim2.new(0, 403, 0, 35)
 label.Font = Enum.Font.SourceSans
-label.Text = "NAHub | Made By NhatAnh (Orb#5041)"
+label.Text = "NAHub | Made By Orb#5041"
 label.TextColor3 = Color3.fromRGB(16, 32, 255)
 label.TextSize = 34.000
 label.TextWrapped = true
 
-SpeedButton.Name = "SpeedButton"
-SpeedButton.Parent = Main
-SpeedButton.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
-SpeedButton.Position = UDim2.new(0, 0, 0.271728158, 0)
-SpeedButton.Size = UDim2.new(0, 134, 0, 32)
-SpeedButton.Font = Enum.Font.SourceSans
-SpeedButton.Text = "Speed"
-SpeedButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-SpeedButton.TextSize = 14.000
-SpeedButton.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://pastebin.com/pq80JhpJ"))()
-end)
-
 AmateurHUB.Name = "AmateurHUB"
 AmateurHUB.Parent = Main
 AmateurHUB.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
-AmateurHUB.Position = UDim2.new(0.66749382, 0, 0.366514891, 0)
-AmateurHUB.Size = UDim2.new(0, 134, 0, 32)
+AmateurHUB.Position = UDim2.new(0.312655091, 0, 0.612960339, 0)
+AmateurHUB.Size = UDim2.new(0, 150, 0, 51)
 AmateurHUB.Font = Enum.Font.SourceSans
 AmateurHUB.Text = "AmateurHub"
 AmateurHUB.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -61,8 +49,8 @@ VEPSCRIPT.Name = "VEPSCRIPT"
 VEPSCRIPT.Parent = Main
 VEPSCRIPT.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
 VEPSCRIPT.BorderColor3 = Color3.fromRGB(255, 85, 0)
-VEPSCRIPT.Position = UDim2.new(0.66749382, 0, 0.60189569, 0)
-VEPSCRIPT.Size = UDim2.new(0, 134, 0, 32)
+VEPSCRIPT.Position = UDim2.new(0.312655091, 0, 0.270142108, 0)
+VEPSCRIPT.Size = UDim2.new(0, 150, 0, 51)
 VEPSCRIPT.Font = Enum.Font.SourceSans
 VEPSCRIPT.Text = "Vep"
 VEPSCRIPT.TextColor3 = Color3.fromRGB(0, 0, 0)
